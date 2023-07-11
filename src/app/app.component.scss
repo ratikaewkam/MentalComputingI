@@ -1,0 +1,336 @@
+/* app.components.scss */
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Ahom&display=swap');
+
+/* Navbar */
+.navbar {
+    background-color: #0D1117;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.active {
+    font-weight: 700;
+}
+
+/* Intro */
+#intro {
+    background: linear-gradient(98.3deg, #161B22 0%, rgba(30, 30, 30, 0.8) 50%, #161B22 100%), url(../assets/images/meeting.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.intro-content {
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.master-text {
+    font-family: 'Noto Serif Ahom', serif;
+    font-weight: 700;
+    font-size: 48px;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.light {
+    background: linear-gradient(87.96deg, #007FFF 30.15%, #C471ED 53.9%, #F64F59 63.2%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.intro-subcontent {
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.btn-getstarted {
+    color: #FFFFFF;
+    background-color: #007FFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.intro-link {
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.header {
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+/* What is Mental Computing */
+#what-mental {
+    margin-top: 100px;
+    background: #161B22;
+    border-radius: 10px;
+}
+
+.section2-content {
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.think-idea {
+    width: 300px;
+    height: 125px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 100px;
+}
+
+.s2-link {
+    color: #FFFFFF;
+    font-family: 'Noto Serif Ahom', serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+/* Think different */
+#think-different {
+    margin-top: 120px;
+}
+
+.text-bullet::before {
+    content: "• ";
+}
+
+.think-title {
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.think-content {
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* How to use Mental I */
+#how-to-use {
+    margin-top: 120px;
+}
+
+.teach {
+    width: 320px;
+    height: 225px;
+}
+
+.number-text {
+    background-color: #161B22;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.number-text:hover {
+    background-color: #007FFF;
+}
+
+.how-to-content {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+/* Development plan */
+#development-plan {
+    margin-top: 150px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.dev-plan-card {
+    background: #161B22;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.version-text {
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.version-title {
+    font-family: 'Noto Serif Ahom', serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.vesion-content {
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* About */
+#about {
+    margin-top: 180px;
+}
+
+.ceo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.team {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about-content {
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.name {
+    color: #FFFFFF;
+    font-family: 'Noto Serif Ahom', serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.team-content {
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.divide-line {
+    width: auto;
+    border: 1px solid #E6E6E6;
+}
+
+/* Why Mental Computing */
+#why-mental {
+    margin-top: 150px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.why-mental-content {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+/* Join now */
+#join-now {
+    margin-top: 120px;
+    background: #161B22;
+}
+
+.join-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.join-subtitle {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.btn-outline-primary {
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+/* Footer */
+#footer {
+    margin-top: 100px;
+}
+
+.foot-title {
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.foot-link {
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.foot-copy {
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}

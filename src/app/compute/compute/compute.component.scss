@@ -1,0 +1,75 @@
+/* compute.component.scss */
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Ahom&display=swap');
+
+/* Compute */
+#compute {
+    margin-top: 120px;
+    background-color: #161B22;
+    border-radius: 10px;
+}
+
+label {
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.btn-submit {
+    color: #FFFFFF;
+    background-color: #007FFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.header {
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.light {
+    background: linear-gradient(87.96deg, #007FFF 30.15%, #C471ED 53.9%, #F64F59 63.2%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.compute-des {
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.p-error {
+    color: red;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/* Show Value */
+.content {
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.value {
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
